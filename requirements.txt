@@ -1,8 +1,8 @@
 # Documentation
 mkdocs-material
 
-# Install source dependencies
--r .infra-setup/requirements-dev.txt
+# Install source dependencies (only after .infra-setup exists)
+# -r .infra-setup/requirements-dev.txt
 
-# Install local package in editable mode
--e .infra-setup/src
+# Install local package in editable mode (only after .infra-setup exists)
+# -e .infra-setup/src

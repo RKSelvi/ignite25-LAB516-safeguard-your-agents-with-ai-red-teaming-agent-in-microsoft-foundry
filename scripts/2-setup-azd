@@ -118,5 +118,30 @@ azd env set AZURE_AISERVICES_NAME lab516-airesource
 
 print_success "Azure resource names customized"
 
+# ---------------------
+# Install Python Dependencies
+# ---------------------
+
+echo "→ Installing Python dependencies..."
+
+# Go back to the root directory
+cd ..
+
+# Check if the .infra-setup requirements exist before installing
+if [ -f ".infra-setup/requirements-dev.txt" ]; then
+    pip install -r .infra-setup/requirements-dev.txt
+    print_success "Installed .infra-setup/requirements-dev.txt dependencies"
+else
+    print_warning ".infra-setup/requirements-dev.txt not found, skipping"
+fi
+
+# Check if the .infra-setup src directory exists before installing in editable mode
+if [ -d ".infra-setup/src" ]; then
+    pip install -e .infra-setup/src
+    print_success "Installed .infra-setup/src in editable mode"
+else
+    print_warning ".infra-setup/src directory not found, skipping editable install"
+fi
+
 echo ""
 print_success "Setup complete! You can now work with the AI agents template."

@@ -19,19 +19,19 @@
 
 
 # Project information .........................................
-site_name: "Session Title"
+site_name: "LAB516: Safeguard your agents with AI red teaming agent in Azure AI Foundry"
 site_url: 
-site_author: Content Creator
+site_author: Microsoft Ignite 2025
 site_description: >-
-  Demo mkdocs for Ignite Repos
+  Learn how to safeguard your AI agents using red teaming techniques in Azure AI Foundry
 
 # Repository ..................................................
-repo_name: microsoft/Ignite25-Repo-Template
-repo_url: https://github.com/microsoft/Ignite25-Repo-Template
+repo_name: microsoft/ignite25-LAB516-safeguard-your-agents-with-ai-red-teaming-agent-in-azure-ai-foundry
+repo_url: https://github.com/microsoft/ignite25-LAB516-safeguard-your-agents-with-ai-red-teaming-agent-in-azure-ai-foundry
 
 # Copyright ...................................................
 copyright: >
-  Copyright &copy; 2023 - present Microsoft
+  Copyright &copy; 2024 - present Microsoft
 
 extra_css:
   - assets/extra.css  # Adjust path if needed
@@ -121,3 +121,6 @@ markdown_extensions:
 
 # Navigation  ...............................................
 nav:
+  - Home: 'README.md'
+  - Demo:
+    - 'Step 1': '01-demo/01-step.md'
