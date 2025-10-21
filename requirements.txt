@@ -16,5 +16,5 @@ azure-identity
 
 # AI and evaluation
 azure-ai-evaluation[redteam]
-azure-ai-projects
+azure-ai-projects>=1.1.0b3  # Required for cloud-based red teaming (Lab 03)
 azure-ai-agents

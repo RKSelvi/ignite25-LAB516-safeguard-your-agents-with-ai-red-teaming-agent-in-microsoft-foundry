@@ -433,3 +433,6 @@ site/
 redteam_outputs/
 **/redteam_outputs/
 
+
+# Cloned ForBeginners repository (not committed)
+infra/ForBeginners

@@ -18,9 +18,9 @@ By the end of this session, learners will be able to:
 
 - describe what the AI Red Teaming Agent does, and why it matters
 - understand the risk categories and attack strategies for AI red teaming
-- run an AI Red Teaming Agent scan using the Azure AI Evaluation SDK
-- view and analyze the scan results in the Azure AI Foundry Portal
-- view and analyze the scan results in your local device environment
+- run an AI Red Teaming Agent scan locally - using the Azure AI Evaluation SDK
+- run an AI Red Teaming Agent scan in cloud - using the Azure AI Foundry SDK
+- view and analyze scan results - locally and in Azure AI Foundry Portal
 - create and run custom scans using app-specific callbacks & prompts
 
 ### 💻 Technologies Used
