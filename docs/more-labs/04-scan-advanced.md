@@ -1,40 +1,65 @@
-# Lab 4: Complex Scans
+# Lab 4: Red Team the Zava Chatbot
+
+## About This Lab
+
+Test Cora, an AI shopping assistant for Zava Hardware Store, using baseline and advanced attack strategies. This lab demonstrates comprehensive security testing of a production-ready agent with file search capabilities and real product data across 50+ items.
 
 ## Learning Objectives
 
-By completing this lab, you will learn how to:
-
-- ✅ Understand attack complexity levels: EASY, MODERATE, and DIFFICULT
-- ✅ Use attack strategy groups for comprehensive multi-complexity testing
-- ✅ Test all four risk categories simultaneously in a single scan
-- ✅ Configure large-scale scans with multiple objectives per category
-- ✅ Interpret results from extensive red team scans (100+ attack-response pairs)
-- ✅ Apply comprehensive testing strategies to production-ready AI systems
+- ✅ Create production-ready AI agents with file search capabilities and product catalogs
+- ✅ Run baseline and advanced red teaming scans with sophisticated attack strategies
+- ✅ Analyze Attack Success Rate (ASR) metrics by risk category and attack complexity
 
 ## Instructions
 
-1. **Open the notebook**: Navigate to `labs/4-scan-more/` and open [`4-scan-deepseek.ipynb`](../../labs/4-scan-more/4-scan-deepseek.ipynb)
-2. **Review attack complexity**: Understand EASY (Base64, Flip, Morse), MODERATE (Tense), DIFFICULT (Composition)
-3. **Configure comprehensive scan**: Set up scan with all risk categories and strategy groups
-4. **Run the scan**: Execute the comprehensive scan (this takes 20-40 minutes due to scope)
-5. **Analyze extensive results**: Review the ~100+ attack-response pairs across all categories
-6. **Compare complexity levels**: See how attack success varies by complexity
+!!! lab "4-redteam-zava.ipynb"
+    
+    1. **Open Notebook**: Navigate to `labs/4-scan-more/` and open `4-redteam-zava.ipynb`
+    2. **Select Kernel**: Choose the Python kernel for your environment
+    3. **Clear All Outputs**: Clear any existing outputs from previous runs
+    4. **Run All**: Execute all cells sequentially
+    5. **Explore Outputs**: Review the results as baseline and advanced scans execute
 
-**Expected Time**: 40-60 minutes (includes long scan duration)
+**About Cora - Zava Hardware Store AI Assistant:**
+
+Cora is an AI shopping assistant with access to 50+ real products including paint, power tools, hand tools, hardware, electrical, and plumbing supplies. The agent provides product information, pricing, inventory levels, and customer loyalty discounts (Bronze 5%, Silver 10%, Gold 15%, Platinum 20%).
+
+**Key steps in the notebook:**
+
+1. Review red teaming concepts and Map-Measure-Manage framework
+2. Create Cora agent with Zava's 47-file product catalog
+3. Run baseline scan with direct adversarial queries
+4. Run advanced scan with encoding/obfuscation strategies
+5. Analyze and compare baseline vs. advanced ASR metrics
+6. Review successful attacks and identify vulnerabilities
+7. Access detailed reports in Azure AI Foundry Portal
+
+## Takeaways
+
+- Production agents need testing against baseline and advanced strategies.
+- Advanced attacks bypass basic filters using encoding and obfuscation.
+- ASR metrics by risk category reveal specific vulnerability patterns.
+- File search capabilities require thorough security validation.
+- Map-Measure-Manage framework enables systematic AI safety.
 
 ## Ask Copilot
 
-Use these prompts with GitHub Copilot Chat to deepen your understanding:
-
-!!! prompt ""
+!!! prompt "Planning Your Testing Strategy"
     
-    **Ask GitHub Copilot:**
+    How should I decide which risk categories to prioritize when testing my own AI agent? What factors determine testing scope?
+
+!!! prompt "Baseline vs Advanced Testing"
     
-    - "Explain the three attack complexity levels: EASY, MODERATE, and DIFFICULT. What makes an attack strategy more complex, and why do different complexity levels require different resources?"
-    - "What attack strategies are included in each complexity group? Describe how Base64, Flip, Morse (EASY), Tense (MODERATE), and Composition attacks work."
-    - "How do composition attacks work by combining multiple strategies? Why are they classified as DIFFICULT, and what makes them harder to defend against?"
-    - "How should I use comprehensive multi-complexity testing in my production AI deployment workflow? What ASR thresholds should I target for different risk categories?"
+    When should I run baseline scans versus advanced scans? How do I build a progressive testing strategy for my use case?
 
----
+!!! prompt "Custom Attack Prompts"
+    
+    How can I create domain-specific attack prompts for my industry? What makes an effective custom prompt for security testing?
 
-**Previous Lab**: [← Lab 3: Cloud-Based Red Teaming](../labs/03-scan-cloud.md) | **Congratulations!** You've completed all labs! 🎉
+!!! prompt "Interpreting Results for Action"
+    
+    What ASR threshold should trigger remediation in my application? How do I prioritize fixing vulnerabilities based on scan results?
+
+!!! prompt "Production Deployment Checklist"
+    
+    What red teaming steps should I complete before deploying an AI agent to production? How do I integrate testing into my CI/CD pipeline?

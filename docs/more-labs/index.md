@@ -1,10 +1,6 @@
 # More Labs
 
-Explore advanced AI red teaming techniques and bonus content to deepen your understanding of security evaluation strategies.
-
-## Bonus Labs
-
-These advanced labs build upon the foundational knowledge from Labs 0-3 and introduce sophisticated testing techniques.
+These "bonus" labs build upon the foundational knowledge from Labs 0-3 and will capture advanced usage scenarios or dive deeper into key features with more nuanced exercises.
 
 ### Prerequisites
 
@@ -17,34 +13,26 @@ Before starting these bonus labs, you should have:
 
 ---
 
-## Lab 4: Complex Scans
+## Lab 4: Red Team the Zava Chatbot
 
-**Duration:** 40-60 minutes | **Difficulty:** 🟠 Advanced
+**Duration:** 45-60 minutes | **Difficulty:** 🟠 Advanced
 
-Conduct comprehensive testing with multi-complexity attack strategy groups across all risk categories.
+Test a production-ready AI shopping assistant with real product data for safety vulnerabilities using baseline and advanced attack strategies.
 
 **What You'll Learn:**
 
-- Apply EASY attack strategies (Base64, Flip, Morse)
-- Apply MODERATE attacks (Tense conversion)
-- Apply DIFFICULT attacks (composition strategies)
-- Test all risk categories simultaneously
-- Configure multi-objective scans
-- Interpret large-scale scan results
+- Create Azure AI Agents with file search capabilities
+- Run baseline red teaming scans with direct attacks
+- Apply advanced attack strategies (Base64, ROT13, Leetspeak, Composition)
+- Analyze Attack Success Rate (ASR) by risk category
+- Interpret results and identify vulnerabilities
+- Apply production AI safety best practices
 
-**Scan Scope:** 100+ attack-response pairs across 4 risk categories
+**Test Target:** Cora - Zava Hardware Store's AI assistant with 50+ products
 
 [Start Lab 4 →](04-scan-advanced.md){ .md-button .md-button--primary }
 
 ---
-
-## Getting Help
-
-If you encounter issues or have questions:
-
-- Review the [Getting Started](../getting-started/setup.md) guide
-- Check the main [Labs Overview](../labs/index.md)
-- Refer to [Azure AI documentation](https://learn.microsoft.com/azure/ai-studio/)
 
 ## Additional Topics
 
@@ -57,4 +45,4 @@ Future bonus labs may include:
 
 ---
 
-[Back to Core Labs](../labs/index.md){ .md-button }
+[Back to Core Labs](../core-labs/index.md){ .md-button }
