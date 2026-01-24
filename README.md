@@ -90,11 +90,11 @@ Ready to get to work? Let's go! 🚀
 
 | Resources          | Links                             | Description        |
 |:-------------------|:----------------------------------|:-------------------|
-| Browse the documentation| [Microsoft Foundry - AI Red Teaming Agent](https://learn.microsoft.com/en-us/azure/ai-foundry/how-to/develop/run-ai-red-teaming-cloud?view=foundry&tabs=python)) | AI Red Teaming overview & getting started with local & cloud scans |
+| Browse the documentation| [Microsoft Foundry - AI Red Teaming Agent](https://learn.microsoft.com/en-us/azure/ai-foundry/how-to/develop/run-ai-red-teaming-cloud?view=foundry&tabs=python) | AI Red Teaming overview & getting started with local & cloud scans |
 | PyRIT Documentation | [Python Risk Identification Tool (PyRIT)](https://azure.github.io/PyRIT/?ocid=AITour26_resourcecenter_cnl) | Microsoft's open-source framework for AI red teaming |
 | Red Teaming Technical Blog | [Assess Agentic Risks with AI Red Teaming Agent](https://devblogs.microsoft.com/foundry/assess-agentic-risks-with-the-ai-red-teaming-agent-in-microsoft-foundry/) | Latest features & capabilities from Microsoft Ignite (Nov 2025) |
 | Pre-Recorded Session Video | [Model Mondays Replay (Dec 2025)](https://www.youtube.com/watch?v=70OCsYjOsbs) | Walkthrough of slides & demo by Minsoo Thigpen (Core AI PM)|
-| Microsoft AI Tour Theater Session | [Safeguard Your Agents Workshop](https://github.com/microsoft/aitour26-LTG156-safeguard-agentic-ai-solutions-with-ai-red-teaming-agent/tree/main) | 15-minute overview with demo |
+| Microsoft AI Tour 2026 | [Safeguard Your Agents Theater Session](https://github.com/microsoft/aitour26-LTG156-safeguard-agentic-ai-solutions-with-ai-red-teaming-agent/tree/main) | 15-minute overview with demo |
 | | |
 
 
