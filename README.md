@@ -84,7 +84,18 @@ _You should now have a browser with three open tabs:_
 
 Ready to get to work? Let's go! 🚀
 
+---
 
+### 🔗 Session Resources
+
+| Resources          | Links                             | Description        |
+|:-------------------|:----------------------------------|:-------------------|
+| Browse the documentation| [Microsoft Foundry - AI Red Teaming Agent](https://learn.microsoft.com/en-us/azure/ai-foundry/how-to/develop/run-ai-red-teaming-cloud?view=foundry&tabs=python)) | AI Red Teaming overview & getting started with local & cloud scans |
+| PyRIT Documentation | [Python Risk Identification Tool (PyRIT)](https://azure.github.io/PyRIT/?ocid=AITour26_resourcecenter_cnl) | Microsoft's open-source framework for AI red teaming |
+| Red Teaming Technical Blog | [Assess Agentic Risks with AI Red Teaming Agent](https://devblogs.microsoft.com/foundry/assess-agentic-risks-with-the-ai-red-teaming-agent-in-microsoft-foundry/) | Latest features & capabilities from Microsoft Ignite (Nov 2025) |
+| Pre-Recorded Session Video | [Model Mondays Replay (Dec 2025)](https://www.youtube.com/watch?v=70OCsYjOsbs) | Walkthrough of slides & demo by Minsoo Thigpen (Core AI PM)|
+| Microsoft AI Tour Theater Session | [Safeguard Your Agents Workshop](https://github.com/microsoft/aitour26-LTG156-safeguard-agentic-ai-solutions-with-ai-red-teaming-agent/tree/main) | 15-minute overview with demo |
+| | |
 
 
 ---
@@ -116,26 +127,26 @@ For more information, setup instructions for other dev clients, and to post comm
 
 <table>
 <tr>
+    <td align="center"><a href="http://github.com/nitya">
+        <img src="https://github.com/nitya.png" width="100px;" alt="Nitya Narasimhan"
+/><br />
+        <sub><b>Nitya Narasimhan
+</b></sub></a><br />
+            <a href="https://github.com/nitya" title="talk">📢</a> 
+    </td>
     <td align="center"><a href="http://github.com/minthigpen">
-        <img src="https://github.com/minthigpen.png" width="100px;" alt="MINSOO THIGPEN"
+        <img src="https://github.com/minthigpen.png" width="100px;" alt="Minsoo Thigpen
 "/><br />
-        <sub><b> MINSOO THIGPEN
+        <sub><b>Minsoo Thigpen
 </b></sub></a><br />
             <a href="https://github.com/minthigpen" title="talk">📢</a> 
     </td>
-    <td align="center"><a href="http://github.com/nitya">
-        <img src="https://github.com/nitya.png" width="100px;" alt="NITYA NARASIMHAN"
+    <td align="center"><a href="http://github.com/slister1001">
+        <img src="https://github.com/slister1001.png" width="100px;" alt="Sydney Lister
 "/><br />
-        <sub><b>NITYA NARASIMHAN
+        <sub><b>Sydney Lister
 </b></sub></a><br />
-            <a href="https://github.com/nityan" title="talk">📢</a> 
-    </td>
-    <td align="center"><a href="http://github.com/bethanyjep">
-        <img src="https://github.com/bethanyjep.png" width="100px;" alt="BETHANY JEPCHUMBA"
-"/><br />
-        <sub><b>BETHANY JEPCHUMBA
-</b></sub></a><br />
-            <a href="https://github.com/bethanyjep" title="talk">📢</a> 
+            <a href="https://github.com/slister1001" title="talk">📢</a> 
     </td>
 </tr></table>
 
